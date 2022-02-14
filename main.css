@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+        body{
+            background-color: #67B7D1;
+            z-index: -1;
+        }
+
+        .wrapper {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+.button {
+    padding: 0.75em 2em;
+    text-align: center;
+    text-decoration: none;
+    color: #0b456b;
+    border: 2px solid #2194E0;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 0.3em;
+    transition: all 0.2s ease-in-out;
+    /*position: relative;*/
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family:"Averia Serif Libre";
+    /*transition: all 0.5s;
+    text-decoration: none;
+    display: inline-block;*/
+    font-size: 19px;
+    /*margin: 4px 2px;*/
+    transition-duration: 0.4s;
+    border: 2px solid #0f78be ;
+    margin-top: 353px;
+    margin-left: -605px;
+}
+.button:before {
+     content: "";
+     background-color: rgba(255,255,255,0.5);
+     height: 100%;
+     width: 3em;
+     display: block;
+     position: absolute;
+     top: 0;
+     
+     /*left: -4.5em;*/
+     transform: skewX(-45deg) translateX(0);
+     transition: none;
+ }
+.button:hover {
+     background-color: #2194E0;
+     color: #fff;
+     border-bottom: 4px solid #10627e;
+ }
+.button:before {
+     transform: skewX(-45deg) translateX(13.5em);
+     transition: all 0.5s ease-in-out;
+ }
+        h1{
+            margin-top:170px;
+            margin-left: -600px;
+            text-align: center;
+            font-family:"Averia Serif Libre";
+            color: #3744bb;
+            text-shadow: 2px 2px 4px #8060d8;
+            position:absolute;
+            font-size:30px;
+        }
+        .flexbox{
+            display: flex;
+            justify-content: space-between;
+        }
+        
